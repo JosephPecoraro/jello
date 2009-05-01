@@ -36,7 +36,6 @@ Jello::Mould.new do |paste, board|
           else                         base = baser.to_s
         end
       else
-				p uri.host.match( /(?:[\w\d\-\.]+\.)?([\w\d\-]+)\.[\w]{2,4}/ )
         base = uri.host.match( /(?:[\w\d\-\.]+\.)?([\w\d\-]+)\.[\w]{2,4}/ )[1]
       end
 
